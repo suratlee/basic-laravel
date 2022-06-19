@@ -18,6 +18,6 @@ class AboutController extends Controller
             ->with('address',$address)
             ->with('tel',$tel)
             ->with('email',$email)
-            ->with('error','404 Not Found');
+            ->with('error','404 Not Found -- ');
     }
 }
